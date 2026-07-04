@@ -1,0 +1,53 @@
+.header {
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 40px;
+  background-color: var(--bg-color);
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.header-dropdown, .header-link {
+  background: none;
+  border: none;
+   color: var(--accent-color);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.header-dropdown:hover, .header-link:hover {
+  color: var(--text-heading);
+  text-decoration: none;
+}
+
+.header-dropdown.active {
+  color: var(--accent-color);
+}
+
+.header-link {
+  color: var(--accent-color);
+}
+
+.icon-ml {
+  margin-left: 6px;
+  opacity: 0.8;
+}
+
+.sign-in {
+  color: var(--text-primary);
+}
+.sign-in:hover {
+  color: var(--text-heading);
+}
