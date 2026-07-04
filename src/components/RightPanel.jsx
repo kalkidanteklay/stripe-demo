@@ -18,7 +18,7 @@ function RightPanel() {
       </div>
 
       <div className="panel-section">
-        <h3>Just getting started?</h3>
+        <h2>Just getting started?</h2>
         <p>Check out our <a href="#">development quickstart</a> guide.</p>
       </div>
 

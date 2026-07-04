@@ -2,6 +2,10 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  width: 420px;          /* Sets a fixed wider base width (adjust this number as needed) */
+  min-width: 400px;      /* Prevents it from getting too squished on smaller screens */
+  max-width: 100%;
+  margin-top: 40px;
 }
 
 .panel-actions {
@@ -14,13 +18,14 @@
 .action-btn {
   background: none;
   border: none;
-  color: var(--text-secondary);
+  color: var(--text-primary);
   font-family: inherit;
   font-size: 12px;
   cursor: pointer;
   display: flex;
   align-items: center;
   padding: 0;
+  margin-top: 15px;
 }
 
 .action-btn:hover {
@@ -40,7 +45,7 @@
 }
 
 .panel-section p {
-  color: var(--text-primary);
+  color: #FFFFFF;
   margin-bottom: 0;
   font-size: 14px;
 }

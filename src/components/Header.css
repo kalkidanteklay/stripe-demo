@@ -16,8 +16,8 @@
 .header-dropdown, .header-link {
   background: none;
   border: none;
-   color: var(--accent-color);
-  color: var(--text-primary);
+  color: var(--accent-color);
+  color: #FFFFFF;
   font-family: var(--font-sans);
   font-size: 14px;
   cursor: pointer;
